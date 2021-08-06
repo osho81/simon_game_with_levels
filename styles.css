@@ -1,0 +1,104 @@
+body {
+  text-align: center;
+  background-color: #57a3f5;
+}
+
+.icon {
+  font-size: 1px;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2rem;
+  margin:  3% auto 3%;
+  color: #FEF2BF;
+}
+
+.button-form {
+  margin: 2% auto;
+  display: inline-block;
+  height: 80px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.level-btn {
+  height: 50px;
+  width: 80px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #f7e8a7;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+}
+
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  width: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+.button-smaller {
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.button-larger {
+  margin: 5px;
+  height: 120px;
+  width: 120px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.chartreuse {
+  background-color: chartreuse;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.magenta {
+  background-color: magenta;
+}
+
+.white {
+  background-color: white;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: rgb(112, 111, 111);
+}
