@@ -1,4 +1,6 @@
 body {
+  margin: 5px;
+  padding: 5px;
   text-align: center;
   background-color: #57a3f5;
 }
@@ -9,7 +11,7 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin:  3% auto 3%;
   color: #FEF2BF;
 }
@@ -25,7 +27,7 @@ body {
 .level-btn {
   height: 60px;
   width: 120px;
-  margin: 2px;
+  margin: 5px;
   border-radius: 10px;
   background-color: #f7e8a7;
   font-family: 'Press Start 2P', cursive;
@@ -36,33 +38,33 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; 
-  width: 400px;
-  width: 400px;
+  height: 600px;
+  width: 600px;
   margin: auto;
 }
 
 .button-smaller {
-  margin: 5px;
-  height: 70px;
-  width: 70px;
-  border: 7px solid black;
-  border-radius: 20%;
+  margin: 2px;
+  height: 115px;
+  width: 115px;
+  border: 15px solid black;
+  border-radius: 30px;
 }
 
 .button-medium {
   margin: 5px;
-  height: 100px;
-  width: 100px;
-  border: 10px solid black;
-  border-radius: 20%;
+  height: 150px;
+  width: 150px;
+  border: 20px solid black;
+  border-radius: 30px;
 }
 
 .button-larger {
-  margin: 5px;
-  height: 120px;
-  width: 120px;
-  border: 10px solid black;
-  border-radius: 20%;
+  margin: 7px;
+  height: 235px;
+  width: 235px;
+  border: 25px solid black;
+  border-radius: 30px;
 }
 
 .red {
