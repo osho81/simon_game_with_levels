@@ -2,29 +2,41 @@ let grid = document.querySelector('.button-grid');
 let gridSize;
 let btnList = [];
 
-const buttonColours = ["red", "blue", "green", "yellow", "chartreuse", "orange", "magenta", "white", "cyan"];
+const buttonColours = ["red", "blue", "green", "yellow",
+  "magenta", "orange", "chartreuse", "white", "cyan", "darkgreen",
+  "navy", "olivedrab", "tomato", "purple", "orangered", "deeppink"];
 
 let gamePattern = [];
 let userClickedPattern = [];
 
-let started = false;
 let level = 0;
 
-// Capture player level choice: easy (4 buttons) or hard (9) and create corresponding grid
+// Capture player level-choice: easy (4), medium (9) or hard (16 buttons) and create corresponding grid
 $(".button-form").click(function (e) {
   if (e.target.id == "easy-level") {
     gridSize = 4;
     for (let i = 0; i < gridSize; i++) {
       const btnSpot = document.createElement('div');
-      btnSpot.setAttribute('type', 'button');   //uneccessary 
+      btnSpot.setAttribute('type', 'button');
       btnSpot.setAttribute('class', 'btn button-larger');
       btnSpot.classList.add(buttonColours[i]);
       btnSpot.setAttribute('id', buttonColours[i]);
       grid.appendChild(btnSpot);
       btnList.push(btnSpot);
     }
-  } else {   //i.e. if hard
+  } else if (e.target.id == "medium-level") {
     gridSize = 9;
+    for (let i = 0; i < gridSize; i++) {
+      const btnSpot = document.createElement('div');
+      btnSpot.setAttribute('type', 'button');
+      btnSpot.setAttribute('class', 'btn button-medium');
+      btnSpot.classList.add(buttonColours[i]);
+      btnSpot.setAttribute('id', buttonColours[i]);
+      grid.appendChild(btnSpot);
+      btnList.push(btnSpot);
+    }
+  } else { 
+    gridSize = 16;
     for (let i = 0; i < gridSize; i++) {
       const btnSpot = document.createElement('div');
       btnSpot.setAttribute('type', 'button');
@@ -42,14 +54,11 @@ $(".button-form").click(function (e) {
 
   }
 
-  // Hide button after user choice
+  // Hide level-buttons after user choice
   $(".button-form").css({ 'display': 'none' });   //OR: $(this)...
 
-  if (!started) {
-    // $("#level-title").text("Level " + level);  //redundant "level 0"
-    nextSequence();
-    started = true;
-  }
+  // Call intial function for rendering first random play pattern
+  nextSequence();
 });
 
 // Each button click is registered & saved, to compare it with the game pattern  
