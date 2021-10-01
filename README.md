@@ -9,4 +9,5 @@ Each round the player can click the same squares that blinked, in the same order
 Otherwise it is game over. 
 
 Picture of the play grid, size 4x4: 
+
 <img src="https://github.com/osho81/simon_game_with_levels/blob/main/picSimon.PNG" alt="Pic from the game" width="500"/>
