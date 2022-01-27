@@ -20,4 +20,4 @@ Improve HTML/CSS & Javascript skills.
 ## Tech used
 * HTML/CSS
 * Javascript
-* 
+
