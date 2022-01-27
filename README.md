@@ -13,6 +13,11 @@ Otherwise it is game over.
 
 <img src="https://github.com/osho81/simon_game_with_levels/blob/main/picSimon.PNG" alt="Pic from the game" width="500"/>
 
-### Motivation/Purpose
-Imporve Javascript skills.
 
+### Motivation/Purpose
+Improve HTML/CSS & Javascript skills.
+
+## Tech used
+* HTML/CSS
+* Javascript
+* 
