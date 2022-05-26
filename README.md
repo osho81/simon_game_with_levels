@@ -11,7 +11,7 @@ Otherwise it is game over.
 
 ### Picture of the play grid, examplified with 4x4 grid size: 
 
-<img src="https://github.com/osho81/simon_game_with_levels/blob/main/picSimon.PNG" alt="Pic from the game" width="500"/>
+<img src="https://github.com/osho81/simon_game_with_levels/blob/main/picSimon.PNG" alt="Pic from the game" width="400"/>
 
 
 ### Motivation/Purpose
