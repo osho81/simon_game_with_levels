@@ -17,7 +17,7 @@ Otherwise it is game over.
 ### Motivation/Purpose
 Improve HTML/CSS & Javascript skills.
 
-## Tech used
+### Tech used
 * HTML/CSS
 * Javascript
 
