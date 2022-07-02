@@ -18,6 +18,7 @@ Otherwise it is game over.
 Improve HTML/CSS & Javascript skills.
 
 ### Tech used
-* HTML/CSS
+* HTML
+* CSS
 * Javascript
 
